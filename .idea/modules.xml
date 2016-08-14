@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GestureLockDemo.iml" filepath="$PROJECT_DIR$/GestureLockDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gesturelock/gesturelock.iml" filepath="$PROJECT_DIR$/gesturelock/gesturelock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/odenlib/odenlib.iml" filepath="$PROJECT_DIR$/odenlib/odenlib.iml" />
+    </modules>
+  </component>
+</project>

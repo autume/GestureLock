@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="color_no_finger" format="color" />
+    <attr name="color_finger_on" format="color" />
+    <attr name="color_finger_up_correct" format="color" />
+    <attr name="color_finger_up_error" format="color" />
+    <attr name="count" format="integer" />
+    <attr name="preference_id" format="integer" />
+
+    <declare-styleable name="GestureLockViewGroup">
+        <attr name="color_no_finger" />
+        <attr name="color_finger_on" />
+        <attr name="color_finger_up_correct" />
+        <attr name="color_finger_up_error" />
+        <attr name="count" />
+        <attr name="preference_id" />
+    </declare-styleable>
+
+</resources>
