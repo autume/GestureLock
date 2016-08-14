@@ -9,6 +9,7 @@ Android GestureLock
 
 ## 使用效果
 demo：
+
 ![](http://i.imgur.com/P13oXgW.gif)
 
 ## 在项目中导入该库
@@ -41,12 +42,12 @@ dependencies {
         app:count="3" />
 ```
 可以设置的一些参数，说明如下:
-color_no_finger:未触摸时圆形的颜色
-color_finger_on:触摸时圆形的颜色
-color_finger_up_correct:输入正确时圆形的颜色
-color_finger_up_error:出错时圆形的颜色
-count：收拾密码的圆形数量，n*n
-preference_id：手势密码保存的id号，不输入或输入-1则使用默认的id
+- color_no_finger:未触摸时圆形的颜色
+- color_finger_on:触摸时圆形的颜色
+- color_finger_up_correct:输入正确时圆形的颜色
+- color_finger_up_error:出错时圆形的颜色
+- count：收拾密码的圆形数量，n*n
+- preference_id：手势密码保存的id号，不输入或输入-1则使用默认的id
 
 ### 初始化
 ```java
@@ -132,9 +133,9 @@ private void initGesture() {
 清除密码的逻辑自己加个判断处理下即可，具体可以看下demo
 
 ### 其他的一些API
-public void removePassword() ：清除密码
-public void savePassword() : 保存密码，设置手势密码成功后会自动保存，也可以调用该接口另外设置密码
-public void getPassword()： 获取密码
-public void setRetryTimes(int retryTimes) ： 设置重试次数上限
-public boolean isSetPassword() ： 返回现在是否已经设置有密码
-public void resetView() ： 将视图Reset
+- public void removePassword() ：清除密码
+- public void savePassword() : 保存密码，设置手势密码成功后会自动保存，也可以调用该接口另外设置密码
+- public void getPassword()： 获取密码
+- public void setRetryTimes(int retryTimes) ： 设置重试次数上限
+- public boolean isSetPassword() ： 返回现在是否已经设置有密码
+- public void resetView() ： 将视图Reset
