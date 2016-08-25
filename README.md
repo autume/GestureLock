@@ -139,3 +139,5 @@ private void initGesture() {
 - public void setRetryTimes(int retryTimes) ： 设置重试次数上限
 - public boolean isSetPassword() ： 返回现在是否已经设置有密码
 - public void resetView() ： 将视图Reset
+
+详细介绍见博客：http://blog.csdn.net/yaodong379/article/details/52318859
