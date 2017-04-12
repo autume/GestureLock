@@ -46,7 +46,7 @@ dependencies {
 - color_finger_on:触摸时圆形的颜色
 - color_finger_up_correct:输入正确时圆形的颜色
 - color_finger_up_error:出错时圆形的颜色
-- count：收拾密码的圆形数量，n*n
+- count：手势密码的圆形数量，n*n
 - preference_id：手势密码保存的id号，不输入或输入-1则使用默认的id
 
 ### 初始化
